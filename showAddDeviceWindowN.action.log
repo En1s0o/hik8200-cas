@@ -1,0 +1,398 @@
+2019-12-16 15:24:37.861  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> POST https://192.168.130.206/vms/deviceInfo!showAddDeviceWindowN.action http/1.1
+2019-12-16 15:24:37.861  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Type: application/x-www-form-urlencoded
+2019-12-16 15:24:37.861  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Length: 25
+2019-12-16 15:24:37.861  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept: */*
+2019-12-16 15:24:37.861  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Host: 192.168.130.206
+2019-12-16 15:24:37.862  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: Keep-Alive
+2019-12-16 15:24:37.862  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept-Encoding: gzip
+2019-12-16 15:24:37.862  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : User-Agent: okhttp/3.14.4
+2019-12-16 15:24:37.862  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : 
+2019-12-16 15:24:37.862  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : start=0&limit=20&unitId=1
+2019-12-16 15:24:37.862  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> END POST (25-byte body)
+2019-12-16 15:24:37.873  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- 302 Found https://192.168.130.206/vms/deviceInfo!showAddDeviceWindowN.action (10ms)
+2019-12-16 15:24:37.874  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Server: openresty
+2019-12-16 15:24:37.874  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Date: Mon, 16 Dec 2019 07:18:25 GMT
+2019-12-16 15:24:37.874  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Length: 0
+2019-12-16 15:24:37.874  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: keep-alive
+2019-12-16 15:24:37.874  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : P3P: CP=CAO PSA OUR
+2019-12-16 15:24:37.874  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Location: https://192.168.130.206:443/cas/login?service=https%3A%2F%2F192.168.130.206%3A443%2Fvms%2FdeviceInfo%21showAddDeviceWindowN.action
+2019-12-16 15:24:37.875  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Strict-Transport-Security: max-age=0; includeSubdomains
+2019-12-16 15:24:37.875  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-Content-Type-Options: nosniff
+2019-12-16 15:24:37.875  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-XSS-Protection: 1; mode=block
+2019-12-16 15:24:37.875  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Security-Policy: upgrade-insecure-requests
+2019-12-16 15:24:37.875  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- END HTTP (0-byte body)
+2019-12-16 15:24:37.877  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> GET https://192.168.130.206/cas/login?service=https%3A%2F%2F192.168.130.206%2Fvms%2FdeviceInfo%21getTypeData.action http/1.1
+2019-12-16 15:24:37.878  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept: */*
+2019-12-16 15:24:37.878  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Host: 192.168.130.206
+2019-12-16 15:24:37.878  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: Keep-Alive
+2019-12-16 15:24:37.878  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept-Encoding: gzip
+2019-12-16 15:24:37.878  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : User-Agent: okhttp/3.14.4
+2019-12-16 15:24:37.878  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> END GET
+2019-12-16 15:24:37.898  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- 200 OK https://192.168.130.206/cas/login?service=https%3A%2F%2F192.168.130.206%2Fvms%2FdeviceInfo%21getTypeData.action (20ms)
+2019-12-16 15:24:37.898  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Server: openresty
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Date: Mon, 16 Dec 2019 07:18:25 GMT
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Type: text/html;charset=UTF-8
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Length: 7901
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: keep-alive
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Pragma: no-cache
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Cache-Control: no-cache
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Cache-Control: no-store
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Set-Cookie: HIKSESSIONID=8d88c9a7-9e4b-4d2c-aa47-48d166a142f7; Path=/cas/
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : is-refresh: 1
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Strict-Transport-Security: max-age=0; includeSubdomains
+2019-12-16 15:24:37.899  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-Content-Type-Options: nosniff
+2019-12-16 15:24:37.900  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-XSS-Protection: 1; mode=block
+2019-12-16 15:24:37.900  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Security-Policy: upgrade-insecure-requests
+2019-12-16 15:24:37.900  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unknown</title>
+
+    <link href="/cas/static/themes/eportal/images/logo_default.png" rel="SHORTCUT ICON" type=" image/png"/>
+    <link rel="stylesheet" type="text/css" href="/cas/static/portal_3.6/common/regular-ui/css/regular-ui.portal.css">
+	<link rel="stylesheet" type="text/css" href="/cas/static/portal_3.6/common/scss/base.css">
+	<script type="text/javascript">
+		var g_ctx = "/cas";
+		var datePickerLang= 'zh_CN';
+		var title = "";
+		var userName = "";
+		
+		var showCopyRight = false;
+		var copyRightText = "";
+		var copyRightSupport = "";
+		var userInfo = {};
+	</script>
+	<meta charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <link rel="stylesheet" type="text/css" href="/cas/static/portal_3.6/common/regular-ui/css/regular-ui.portal.css">
+	<link rel="stylesheet" type="text/css" href="/cas/static/portal_3.6/common/scss/base.css">
+	
+	<style>
+	.nNote{
+		display:none;
+		margin-bottom:1px;
+		padding-top:3px;
+		height:40px;
+		_overflow:hidden;
+		width:100%;
+	}
+	.nPos{
+		position:fixed;
+		z-index:9999;
+		bottom:0px;
+	}
+	.nNote_div{
+		padding:6px 0;
+		width:100%;
+		margin:0 auto;
+		text-align:center;
+		clear: both;
+	}
+	.nNote_div form{
+	    position:absolute;
+	    top:0;
+	    left:0;
+	    z-index: -1;
+	}
+	.tipsFont,.fileInput{
+		height:25px;
+		line-height:25px;
+	}
+	.tipsFont,.buttonS{
+		display:inline-block;
+	}
+	.fileInput{
+	    filter:alpha(opacity=0);
+	    -moz-opacity:0;
+	    -khtml-opacity: 0;
+	    opacity: 0;
+		border:1px solid #ccc;
+	    overflow: hidden;
+		background:#fff;
+	    position:absolute;
+	    z-index:999;
+	}
+	#licenseDiv{
+	    position: fixed;
+	    bottom:0;
+	}
+	#licenseDiv .input-button{
+	    display: inline-block;
+	    padding:3px 15px;
+	    background-color: #fff;
+	    border:1px solid #ccc;
+	    color:#555;
+	    font-size: 12px;
+	    margin-left: 10px;
+	}
+	nNote_div clearfix form{
+	    width:165px;
+	}
+	#licenseDiv .input-box{
+	    display: inline-block;
+	    padding:3px 40px;
+	    font-size: 12px;
+	    background-color: #fff;
+	    border:1px solid #ccc;
+	}
+	.tipsFont{font-size:14px;}
+	.buttonS{
+		cursor: pointer;
+		border: none;
+		padding: 0px 20px;
+		border-bottom: 2px solid transparent;
+		font-size: 12px;
+		color: #333;
+		font-weight: normal;
+		text-align: center;
+		height:23px;
+		line-height: 23px;
+		border-radius: 2px;
+		vertical-align: middle;
+		margin-left:5px;
+	}
+	.bBlue {
+		border-color: #165fac;
+		background-color: #1d7bdf;
+		color:#fff;
+	}
+	.bBlue:hover{
+		background-color: #299be9;
+		border-color:#217ab3;
+	}
+	.bBlue:active{
+		background-color: #1154ce;
+		border-color:#0c3c95;
+	}
+	.bBack {
+		border-color: #ababab;
+		color: #000;
+		background-color: #ddd;
+	}
+	.bBack:hover{
+		background-color: #ebebeb;
+		border-color: #bdbdbd;
+	}
+	.bBack:active {
+		border-color: #a9a9a9;
+		background-color: #cbcbcb;
+	}
+	.warn{
+		background-color:#fffaaa;
+		border:solid 1px #e8d193;
+		color:#826200;
+		border-left:none;
+		border-right:none;
+	}
+	.expire{
+		background-color:#ffdddd;
+		border:solid 1px #ffbbbb;
+		color:#826200;
+		border-left:none;
+		border-right:none;
+	}
+	</style>
+</head>
+<body>
+
+	<script type='text/javascript'>
+		var notesId ='JKN20190910_490';
+		var licenseNo = 'JKN20190910_490';
+        var defaultLng = 'zh_CN';
+	</script>
+	<script type="text/javascript">
+		var macInfo='';
+		var tips;
+		var isSecure = true;
+		var serverName = '192.168.130.206';
+		var serverPort = '443';
+		var service = 'https%3A%2F%2F192.168.130.206%2Fvms%2FdeviceInfo%21getTypeData.action';
+		var licenseType,hasDog,leftDays;
+		//var pkiPort = 8443;
+		var uuid = "2b73083e-9b29-4005-a123-1d4ec47a36d5"; // 用于检测VMS是否超时, chenliangyf1
+	    var pt = {ctx: "/cas" };
+	    var g_ctx = "/cas";
+		var encryptType = "sha256";
+		var pwdSalted = "0";
+
+		var licenseType = "0";
+		var hasDog = "false";
+		var leftDays = "86";
+		var isLicValid = "true";
+
+           var impIp = "192.168.130.206";
+		var pkiUr = "127.0.0.1";
+           var requestLanguage = "null";
+           //是否使用文件服务器，js使用
+           var isFs = false;
+		
+		  //根证书与自助更新工具相关的
+		var ip = "192.168.130.206";
+		var isEnableUpdateTools = "true";
+		var port = "443";
+		var rootCertURLReal=window.location.protocol + '//' +  window.location.host+"/cas/tools/InstallRootCert.exe";
+	</script>
+	<script language="javascript"> 
+/* 		if(top != self){top.location.href = self.location.href;}  */
+		if(top != self){top.location.reload()} 
+		var qrCode = "http:www.hikvision.com";
+	    var id = "cc60ba8c-65a4-4273-a630-f6da6c7d8aad";
+	    
+		var showCaptcha = "false";
+		var title= "Unknown";
+		var logo = "/static/themes/eportal/images/logo_default.png";
+		if(!(null != logo && logo.indexOf("http://") > -1) && !(null != logo && logo.indexOf("https://") > -1)){
+			logo = "/cas"+logo;	
+		}
+	</script>
+
+	
+	<div id="j-content" class="page-login">
+		<form id="fm1" name="fm1" class="fm-v clearfix" action="/cas/login?service=https%3A%2F%2F192.168.130.206%2Fvms%2FdeviceInfo%21getTypeData.action" method="post">
+			<div id="login_msg" class="login-msg f-dn">
+				<span></span>
+			</div>
+			<input type="hidden" name="codeId" value="cc60ba8c-65a4-4273-a630-f6da6c7d8aad">
+			<input id="formVcode" type="hidden" name="vcode" value="88284cd0-a66b-4a84-9b1c-ce1869588055">
+			    	<input type="hidden" name="lt" value="LT-1021-vNLFf0Gh3O70AG9aGEG9PMWXVz6LNd" />
+			<input type="hidden" name="execution" value="e1s1" />
+	    	<input type="hidden" name="clientIP" value="192.168.205.101"/>
+	    	
+	    	<input type="hidden" name="clientMAC" value="">
+	    	<input type="hidden" name="loginType" value="1">
+	    	<input type="hidden" name="_eventId" value="submit">
+	    	
+	    	<input id="formServiceIP" type="hidden" name="serviceIP">
+	    	<input id="formName" type="hidden" name="username">
+	    	<input id="formPswd" type="hidden" name="password">
+	    	<input id="formStrength" type="hidden" name="pwdStrength">
+	    	<input id="formImageCode" type="hidden" name="imageCode">
+	    	<input type="hidden" name="imageCodeId" value="8d88c9a7-9e4b-4d2c-aa47-48d166a142f7">
+	    	<input id="formUrl" type="hidden" name="url">
+		</form>
+		<div class="nNote expire nPos" id="licenseDiv">
+			<form action="uploadlicense" enctype="multipart/form-data" method="post" id="fmUpload" target="hidden_frame">
+				<div class="nNote_div clearfix">
+					<font class="tipsFont" id="tips">无法获取授权文件信息，请上传最新的授权文件：</font>
+		                  <input class="fileInput" type="file" name="licenseFile" style="width:250px;font-size:100px;" id="fileData">
+		                  <span class="input-button">选择文件</span>
+		                  <span id="inputVal" class="input-box">尚未选择文件</span>
+		
+					<a href="javascript:void(0);" id="upload" type="submit" class="buttonS bBlue">上传</a>
+					<a href="javascript:void(0);" id="cancel" type="cancel" class="buttonS bBack">忽略</a>
+				</div>
+				<iframe name="hidden_frame" id="hidden_frame" style="display:none;"></iframe>
+			</form>
+		</div>
+	</div>
+	<script language="javascript"> 
+		var vcode = document.getElementById("formVcode").value;
+	</script>
+	<script type="text/javascript" src="/cas/static/portal_3.6/common/js/commonVar.js"></script>
+	<script type="text/javascript" src="/cas/static/js/sha256.js"></script>
+	<script type="text/javascript" src="/cas/static/js/md5.js"></script>
+	<script type="text/javascript" src="/cas/static/portal_3.6/common/js/lib/require-2.2.0.js" data-main="/cas/static/portal_3.6/s_login/entry"></script>
+			
+</body>
+</html>
+2019-12-16 15:24:37.900  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- END HTTP (7901-byte body)
+2019-12-16 15:24:37.982  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> POST https://192.168.130.206/cas/login?service=https%3A%2F%2F192.168.130.206%2Fvms%2FdeviceInfo%21getTypeData.action http/1.1
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Type: application/x-www-form-urlencoded; charset=utf-8
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Length: 401
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Host: 192.168.130.206
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: Keep-Alive
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept-Encoding: gzip
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Cookie: HIKSESSIONID=8d88c9a7-9e4b-4d2c-aa47-48d166a142f7
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : User-Agent: okhttp/3.14.4
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : 
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : execution=e1s1&clientMAC=&loginType=1&lt=LT-1021-vNLFf0Gh3O70AG9aGEG9PMWXVz6LNd&imageCode=&imageCodeId=8d88c9a7-9e4b-4d2c-aa47-48d166a142f7&vcode=88284cd0-a66b-4a84-9b1c-ce1869588055&url=&serviceIP=192.168.130.206&codeId=cc60ba8c-65a4-4273-a630-f6da6c7d8aad&password=681cfac5c91fda0bbe72efe3aa05d04e63c119db82b8426d917543d234642ed7&pwdStrength=3&_eventId=submit&clientIP=192.168.205.101&username=admin
+2019-12-16 15:24:37.983  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> END POST (401-byte body)
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- 302 Found https://192.168.130.206/cas/login?service=https%3A%2F%2F192.168.130.206%2Fvms%2FdeviceInfo%21getTypeData.action (39ms)
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Server: openresty
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Date: Mon, 16 Dec 2019 07:18:25 GMT
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Length: 0
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: keep-alive
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Pragma: no-cache
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Cache-Control: no-cache
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Cache-Control: no-store
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Set-Cookie: CASPRIVACY=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/cas/
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Set-Cookie: CASTGC=TGT-585-aM97jfN0p3RC70IwqlRcg3mVYvpScsInTA7yxz4dqqVPXZMUrZ-cas; Path=/cas/
+2019-12-16 15:24:38.023  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Location: https://192.168.130.206/vms/deviceInfo!getTypeData.action?ticket=ST-684-HQjtVzuvlgYzPK1pgnPc-cas&_i18n_locale=zh_CN
+2019-12-16 15:24:38.024  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Strict-Transport-Security: max-age=0; includeSubdomains
+2019-12-16 15:24:38.024  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-Content-Type-Options: nosniff
+2019-12-16 15:24:38.024  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-XSS-Protection: 1; mode=block
+2019-12-16 15:24:38.024  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Security-Policy: upgrade-insecure-requests
+2019-12-16 15:24:38.024  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- END HTTP (0-byte body)
+2019-12-16 15:24:38.025  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> GET https://192.168.130.206/vms/deviceInfo!getTypeData.action?ticket=ST-684-HQjtVzuvlgYzPK1pgnPc-cas&_i18n_locale=zh_CN http/1.1
+2019-12-16 15:24:38.025  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Host: 192.168.130.206
+2019-12-16 15:24:38.025  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: Keep-Alive
+2019-12-16 15:24:38.025  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept-Encoding: gzip
+2019-12-16 15:24:38.025  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : User-Agent: okhttp/3.14.4
+2019-12-16 15:24:38.025  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> END GET
+2019-12-16 15:24:38.053  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- 302 Found https://192.168.130.206/vms/deviceInfo!getTypeData.action?ticket=ST-684-HQjtVzuvlgYzPK1pgnPc-cas&_i18n_locale=zh_CN (27ms)
+2019-12-16 15:24:38.053  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Server: openresty
+2019-12-16 15:24:38.053  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Date: Mon, 16 Dec 2019 07:18:25 GMT
+2019-12-16 15:24:38.053  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Length: 0
+2019-12-16 15:24:38.053  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: keep-alive
+2019-12-16 15:24:38.053  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Set-Cookie: JSESSIONID=1109334E37A9C09A1D667A1D33F1B98A; Path=/vms; Secure; HttpOnly
+2019-12-16 15:24:38.054  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : P3P: CP=CAO PSA OUR
+2019-12-16 15:24:38.054  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Set-Cookie: _i18n_locale=zh_CN; Path=/vms
+2019-12-16 15:24:38.054  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Location: https://192.168.130.206:443/vms/deviceInfo!getTypeData.action
+2019-12-16 15:24:38.054  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Strict-Transport-Security: max-age=0; includeSubdomains
+2019-12-16 15:24:38.054  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-Content-Type-Options: nosniff
+2019-12-16 15:24:38.054  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-XSS-Protection: 1; mode=block
+2019-12-16 15:24:38.054  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Security-Policy: upgrade-insecure-requests
+2019-12-16 15:24:38.054  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- END HTTP (0-byte body)
+2019-12-16 15:24:38.055  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> GET https://192.168.130.206/vms/deviceInfo!getTypeData.action http/1.1
+2019-12-16 15:24:38.055  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Host: 192.168.130.206
+2019-12-16 15:24:38.055  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: Keep-Alive
+2019-12-16 15:24:38.055  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept-Encoding: gzip
+2019-12-16 15:24:38.055  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Cookie: JSESSIONID=1109334E37A9C09A1D667A1D33F1B98A; _i18n_locale=zh_CN
+2019-12-16 15:24:38.055  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : User-Agent: okhttp/3.14.4
+2019-12-16 15:24:38.055  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> END GET
+2019-12-16 15:24:38.136  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- 200 OK https://192.168.130.206/vms/deviceInfo!getTypeData.action (80ms)
+2019-12-16 15:24:38.136  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Server: openresty
+2019-12-16 15:24:38.137  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Date: Mon, 16 Dec 2019 07:18:25 GMT
+2019-12-16 15:24:38.137  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Type: text/html;charset=utf-8
+2019-12-16 15:24:38.137  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Transfer-Encoding: chunked
+2019-12-16 15:24:38.137  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: keep-alive
+2019-12-16 15:24:38.137  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Vary: Accept-Encoding
+2019-12-16 15:24:38.137  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : P3P: CP=CAO PSA OUR
+2019-12-16 15:24:38.137  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Strict-Transport-Security: max-age=0; includeSubdomains
+2019-12-16 15:24:38.137  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-Content-Type-Options: nosniff
+2019-12-16 15:24:38.138  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-XSS-Protection: 1; mode=block
+2019-12-16 15:24:38.138  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Security-Policy: upgrade-insecure-requests
+2019-12-16 15:24:38.138  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Encoding: gzip
+2019-12-16 15:24:38.141  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : 
+2019-12-16 15:24:38.141  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : [{"code":"1","name":"单IP添加"},{"code":"2","name":"IP段添加"},{"code":"3","name":"单编号添加"},{"code":"4","name":"编号段添加"}]
+2019-12-16 15:24:38.141  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- END HTTP (145-byte, 85-gzipped-byte body)
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> POST https://192.168.130.206/vms/deviceInfo!showAddDeviceWindowN.action http/1.1
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Type: application/x-www-form-urlencoded
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Length: 25
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept: */*
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Host: 192.168.130.206
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: Keep-Alive
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Accept-Encoding: gzip
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Cookie: JSESSIONID=1109334E37A9C09A1D667A1D33F1B98A; _i18n_locale=zh_CN
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : User-Agent: okhttp/3.14.4
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : 
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : start=0&limit=20&unitId=1
+2019-12-16 15:24:38.142  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : --> END POST (25-byte body)
+2019-12-16 15:24:38.168  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- 200 OK https://192.168.130.206/vms/deviceInfo!showAddDeviceWindowN.action (25ms)
+2019-12-16 15:24:38.168  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Server: openresty
+2019-12-16 15:24:38.168  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Date: Mon, 16 Dec 2019 07:18:25 GMT
+2019-12-16 15:24:38.168  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Type: text/html;charset=utf-8
+2019-12-16 15:24:38.168  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Transfer-Encoding: chunked
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Connection: keep-alive
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Vary: Accept-Encoding
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : P3P: CP=CAO PSA OUR
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Strict-Transport-Security: max-age=0; includeSubdomains
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-Content-Type-Options: nosniff
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : X-XSS-Protection: 1; mode=block
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Security-Policy: upgrade-insecure-requests
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : Content-Encoding: gzip
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : 
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : {"indexCode":"000000000001310931527","enableAddDevice":true,"preIndexCode":"0000000000"}
+2019-12-16 15:24:38.169  INFO 12296 --- [ool-1-worker-57] eniso.common.hik.HikCasService           : <-- END HTTP (88-byte, 79-gzipped-byte body)
